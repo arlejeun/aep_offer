@@ -1,0 +1,29 @@
+{
+    "name": "Adobe-APIs",
+    "version": "1.0.0",
+    "description": "A list of services from Adobe sandbox to be easily consumed by Personalized Offers",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "author": "Arnaud Lejeune",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.21.1",
+        "body-parser": "1.19.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "image-size": "0.8.3",
+        "jwt-decode": "3.0.0-beta.2",
+        "log4js": "^6.1.0",
+        "multer": "1.4.2",
+        "node-cache": "5.1.2",
+        "node-cron": "2.0.3",
+        "passport": "^0.4.1",
+        "passport-azure-ad": "^4.2.1",
+        "passport-http-bearer": "^1.0.1",
+        "serve-index": "1.9.1",
+        "uuid": "8.3.2"
+    }
+}
